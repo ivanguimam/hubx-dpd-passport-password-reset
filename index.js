@@ -20,7 +20,7 @@ AuthResource.basicDashboard.settings.push({
 AuthResource.basicDashboard.settings.push({
     name        : 'siteUrl',
     type        : 'text',
-    description : 'Site url, example: http://localhost:8081'
+    description : 'Site url, example: http://localhost:8081/alterar-senha'
 });
 
 AuthResource.prototype.initPasswortReset = function() {
@@ -132,6 +132,6 @@ AuthResource.prototype.handle = function (ctx, next) {
 
 function getHtmlMail(token, url) {
     return '<p style="color: #f00; display: block; text-align: center;">Olá, clique no botão abaixo para alterar sua senha caso você tenha solicitado:</p>' +
-    '<a href="' + url + '/alterar-senha/' + token +'" style="background: rgba(60, 184, 120, 0.85); display: block; width: 120px; margin: 0 auto; text-align: center; color: #FFF; text-decoration: none; padding: 8px 0;">Alterar senha</a>' +
+    '<a href="' + url + '/' + token +'" style="background: rgba(60, 184, 120, 0.85); display: block; width: 120px; margin: 0 auto; text-align: center; color: #FFF; text-decoration: none; padding: 8px 0;">Alterar senha</a>' +
     '<p style="color: #f00; display: block; text-align: center;">Obs: caso você não tenha solicitado, apenas ignore este e-mail.</p>';
 }

@@ -1,0 +1,69 @@
+{
+  "_args": [
+    [
+      "dpd-passport-password-reset",
+      "/home/ivan/repositories/showlution/backend"
+    ]
+  ],
+  "_from": "dpd-passport-password-reset@*",
+  "_id": "dpd-passport-password-reset@0.1.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/dpd-passport-password-reset",
+  "_nodeVersion": "0.10.36",
+  "_npmUser": {
+    "email": "info+npm@simpletechs.net",
+    "name": "simpletechs"
+  },
+  "_npmVersion": "2.3.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "dpd-passport-password-reset",
+    "raw": "dpd-passport-password-reset",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "*",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/dpd-passport-password-reset/-/dpd-passport-password-reset-0.1.0.tgz",
+  "_shasum": "5cb798524a9cb2ad6dbff14b33f6a4202d691fef",
+  "_shrinkwrap": null,
+  "_spec": "dpd-passport-password-reset",
+  "_where": "/home/ivan/repositories/showlution/backend",
+  "author": {
+    "email": "fabian@simpletechs.net",
+    "name": "Fabian Off, simpleTechs.net"
+  },
+  "dependencies": {},
+  "description": "An extension for dpd-passport, that integrates password-reset functionality",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "5cb798524a9cb2ad6dbff14b33f6a4202d691fef",
+    "tarball": "https://registry.npmjs.org/dpd-passport-password-reset/-/dpd-passport-password-reset-0.1.0.tgz"
+  },
+  "gitHead": "f8700884a5b33a7f5c2e6ce1c96d39f1019b6a5f",
+  "keywords": [
+    "deployd",
+    "dpd-passport",
+    "password-reset"
+  ],
+  "license": "FreeBSD",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "simpletechs",
+      "email": "info+npm@simpletechs.net"
+    }
+  ],
+  "name": "dpd-passport-password-reset",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.1.0"
+}
